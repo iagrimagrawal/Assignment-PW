@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Guru</title>
+    <style>
+      .logo {
+        height: 40px;
+        width: 50px;
+        margin-top: 30px;
+        margin-left: 80px;
+      }
+      .name {
+        display: inline;
+        margin-left: 15px;
+        font-size: 26px;
+      }
+      .bar {
+        display: inline;
+        color: gray;
+        padding-left: 40px;
+        font-size: 17px;
+        margin-left: 200px;
+      }
+      .bar1 {
+        display: inline;
+        padding-right: 70px;
+      }
+      .bar2 {
+        display: inline;
+        padding-right: 70px;
+      }
+      .bar3 {
+        display: inline;
+        padding-right: 70px;
+      }
+      .bar4 {
+        display: inline;
+        padding: 5px;
+      }
+      .Sign {
+        display: inline;
+        font-size: 19px;
+        padding: 10px 25px;
+        border: 1px solid black;
+        margin-left: 220px;
+      }
+      .heading {
+        margin-top: 70px;
+        margin-left: 80px;
+        font-size: 60px;
+      }
+      .tagline {
+        margin-top: -10px;
+        margin-left: 90px;
+        color: #3c3a3a;
+        letter-spacing: 3px;
+        word-spacing: 9px;
+    
+      }
+      .start {
+        margin-left: 90px;
+        padding: 15px 30px;
+        background: orangered;
+        color: aliceblue;
+        border: 1px solid;
+        font-size: 15px;
+      }
+      .learn {
+        font-size: 15px;
+        margin-left: 10px;
+        padding: 15px 30px;
+        background: white;
+        color: black;
+        border: 1px solid;
+      }
+      .bgimg {
+        position: absolute;
+        top: 140px;
+        left: 950px;
+        height: 320px;
+        z-index: 1;
+      }
+      .mainimg{
+        position: absolute;
+        top: 140px;
+        left: 1000px;
+        height: 320px;
+        z-index: 2;
+        
+      }
+      .imgp{
+        position: absolute;
+        top: 140px;
+        left: 950px;
+        height: 320px;
+        z-index: 3;
+      }
+      .circle{
+        position: absolute;
+        top: 440px;
+        right: 180px;
+        height: 20px;
+      }
+      .arrow{
+        position: absolute;
+        top: 410px;
+        left: 650px;
+        height: 85px;
+      }
+      .oarrow{
+        position: absolute;
+        top: 140px;
+        left: 870px;
+        height: 20px;
+      }
+      .garrow{
+        position: absolute;
+        top: 470px;
+        left: 900px;
+        height: 20px;
+      }
+      .bottom{
+        background-color: #2f0883;
+        margin-top: 80px;
+        height: 230px;
+        width: 100%;
+      }
+      .bwhy{
+        color: white;
+        padding-top: 40px;
+        padding-left: 60px;
+        font-size: 30px;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+      }
+      .bans{
+        color: white;
+        padding-left: 60px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+      }
+      .vector3{
+        position: absolute;
+        left: 500px;
+        bottom: 155px;
+        background-color: aqua;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .expert{
+        position: absolute;
+        color: white;
+        left: 500px;
+        bottom: 105px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+      }
+      .d1{
+        position: absolute;
+        color: white;
+        left: 500px;
+        bottom: 65px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+      }
+      .vector2{
+        position: absolute;
+        left: 800px;
+        bottom: 155px;
+        background-color: orangered;
+        padding: 10px 15px;
+        margin-left: 30px;
+        border-radius: 10px;
+      }
+      .online{
+        position: absolute;
+        color: white;
+        left: 830px;
+        bottom: 105px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+      }
+      .d2{
+        position: absolute;
+        color: white;
+        left: 830px;
+        bottom: 65px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+      }
+      .vector1{
+        position: absolute;
+        left: 1165px;
+        bottom: 155px;
+        background-color: #050ce4;
+        padding: 10px 15px;
+        border-radius: 10px;
+      }
+      .support{
+        position: absolute;
+        color: white;
+        left: 1165px;
+        bottom: 105px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+      }
+      .d3{
+        position: absolute;
+        color: white;
+        left: 1165px;
+        bottom: 65px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="logo" src="./logo.png" alt="logo" />
+    <h3 class="name">E GURU</h3>
+    <div class="bar">
+      <div class="bar1">Home</div>
+      <div class="bar2">About Us</div>
+      <div class="bar3">Features</div>
+      <div class="bar4">How it works</div>
+    </div>
+    <div class="Sign">Sign Up</div>
+    <h1 class="heading">
+      STUDY FROM <br />
+      HOME WITH EXPERT
+    </h1>
+    <p class="tagline">
+      A learning system based on formalised <br />
+      teaching with the help of resouces
+    </p>
+    <button class="start">Get Started</button>
+    <button class="learn">Learn More</button>
+
+    <div class="parent">
+      <img class="bgimg" src="./main-image-bg.png" alt="bgimg" />
+      <img class="mainimg" src="./main-image.png" alt="mainimg" />
+      <img class="imgp" src="./main-image-pattern.png" alt="imgpattern">
+      <img class="circle" src="./circle.png" alt="circle">
+      <img class="arrow" src="./curve-arrow.png" alt="arrow">
+      <img class="garrow" src="./green-arrow.png" alt="garrow">
+      <img class="oarrow" src="./orange-arrow.png" alt="oarrrow">
+    </div>
+    <div class="bottom">
+      <h3 class="bwhy">WHY WE ARE <br> THE BEST</h3>
+      <p class="bans">a learning system based on <br> formalised teaching with help of...</p>
+      <img class="vector3" src="./vector3.png" alt="expert">
+      <p class="expert">EXPERT TEACHER</p>
+      <p class="d1">a learning system based <br> on formalised teaching</p>
+      <img class="vector2" src="./vector2.png" alt="online">
+      <p class="online">ONLINE COURSES</p>
+      <p class="d2">a learning system based <br> on formalised teaching</p>
+      <img src="./vector1.png" alt="support" class="vector1">
+      <p class="support">24/7 SUPPORT</p>
+      <p class="d3">a learning system based <br> on formalised teaching</p>
+    </div>
+  </body>
+</html>
